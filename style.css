@@ -1,1 +1,52 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.subtitle {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #00ffcc;
+}
+
+.desc {
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #0f0;
+  color: black;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px #0f0;
+}
+
+.btn-outline {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #0f0;
+  color: #0f0;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background: #0f0;
+  color: black;
+}
