@@ -50,7 +50,12 @@ document.addEventListener("DOMContentLoaded", function() {
   for (let x = 0; x < columns; x++) {
     drops[x] = 1;
   }
-
+document.querySelector(".btn").onclick = () => {
+  window.scrollTo({
+    top: window.innerHeight,
+    behavior: "smooth"
+  });
+};
   function drawMatrix() {
     ctx.fillStyle = "rgba(0,0,0,0.05)";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
