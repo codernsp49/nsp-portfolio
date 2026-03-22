@@ -144,3 +144,15 @@ body::before {
 [3:49 AM, 3/22/2026] Neeraj: .btn, .btn-outline {
   border-radius: 6px;
 }
+/* Hidden by default */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s ease;
+}
+
+/* Show when active */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
