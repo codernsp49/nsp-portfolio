@@ -127,3 +127,11 @@ body::before {
 body::before {
   z-index: -3;
 }
+[3:42 AM, 3/22/2026] Neeraj: .hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
+[3:42 AM, 3/22/2026] Neeraj: .btn {
+  box-shadow: 0 0 10px #0f0;
+}
